@@ -1,0 +1,6 @@
+{
+	"id": "org.nativescript.Seismograph",
+	"tns-ios": {
+		"version": "1.0.1"
+	}
+}
