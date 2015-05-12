@@ -5,6 +5,7 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		858B83F318CA22B800AB12DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 858B833D18CA111C00AB12DE /* main.m */; };
 		858B842918CA22B800AB12DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 858B833118CA111C00AB12DE /* Foundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -38,8 +39,6 @@
 		F9161D951993C01600F9E5FD /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F9161D941993C01600F9E5FD /* libicucore.dylib */; };
 		F9411C5B1993BE3A000B92E2 /* NativeScript.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9411C5A1993BE3A000B92E2 /* NativeScript.framework */; };
 		F9B8C6A41ACEDEEB00547416 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9B8C6A21ACEDEEB00547416 /* LaunchScreen.xib */; };
-		16976E2C7E3C47359DFF34DB /* TelerikUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70C464FA7CF943DDBCBD5811 /* TelerikUI.framework */; };
-		C6A49CE35FF24677A610F489 /* TelerikUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 70C464FA7CF943DDBCBD5811 /* TelerikUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,7 +48,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				C6A49CE35FF24677A610F489 /* TelerikUI.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -94,7 +92,6 @@
 		F9161D941993C01600F9E5FD /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 		F9411C5A1993BE3A000B92E2 /* NativeScript.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NativeScript.framework; sourceTree = "<group>"; };
 		F9B8C6A31ACEDEEB00547416 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		70C464FA7CF943DDBCBD5811 /* TelerikUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "TelerikUI.framework"; path = "/Users/diyanov/Desktop/Seismograph/lib/iOS/TelerikUI/TelerikUI.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +105,6 @@
 				F9411C5B1993BE3A000B92E2 /* NativeScript.framework in Frameworks */,
 				858B842918CA22B800AB12DE /* Foundation.framework in Frameworks */,
 				858B842A18CA22B800AB12DE /* UIKit.framework in Frameworks */,
-				16976E2C7E3C47359DFF34DB /* TelerikUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,7 +160,6 @@
 				F9411C5A1993BE3A000B92E2 /* NativeScript.framework */,
 				858B833118CA111C00AB12DE /* Foundation.framework */,
 				858B833518CA111C00AB12DE /* UIKit.framework */,
-				70C464FA7CF943DDBCBD5811 /* TelerikUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -221,7 +216,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = TNS;
-				LastUpgradeCheck = 500;
+				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Telerik;
 			};
 			buildConfigurationList = 858B832918CA111C00AB12DE /* Build configuration list for PBXProject "Seismograph" */;
@@ -366,7 +361,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
@@ -402,7 +397,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -422,7 +417,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(PROJECT_DIR)\"",
-					"\"/Users/diyanov/Desktop/Seismograph/lib/iOS/TelerikUI\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Seismograph/Seismograph-Prefix.pch";
@@ -454,7 +448,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(PROJECT_DIR)\"",
-					"\"/Users/diyanov/Desktop/Seismograph/lib/iOS/TelerikUI\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Seismograph/Seismograph-Prefix.pch";
