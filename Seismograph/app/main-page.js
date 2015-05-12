@@ -4,7 +4,6 @@ var NeedleAnnotation = needleAnnotation.NeedleAnnotation;
 var coefficient = 1000;
 var motionManager = new CMMotionManager();
 var dataPoints = [];
-var center;
 var chart;
 
 function creatingChart(args) {
