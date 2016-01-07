@@ -1,4 +1,4 @@
-<Page loaded="onPageLoaded" xmlns="http://www.nativescript.org/tns.xsd">
+<Page loaded="onPageLoaded" xmlns="http://schemas.nativescript.org/tns.xsd">
     <GridLayout margin="20" columns="auto, *">
     	<StackLayout orientation="vertical" dock="top">
 	    	<Button id="Start" tap="tapStart" text="Start"/>
